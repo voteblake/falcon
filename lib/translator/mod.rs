@@ -6,6 +6,7 @@ use std::boxed::Box;
 use std::collections::{BTreeMap, VecDeque};
 
 pub mod x86;
+pub mod arm;
 
 /// The endianness of the native architecture.
 pub enum Endian {
